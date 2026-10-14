@@ -1,0 +1,255 @@
+*{
+    margin:0 ;
+    padding: 0;
+}
+.outer{
+    width: 1518px;;
+}
+
+.navbar{
+    justify-content: space-between;
+    display: flex;
+   align-items: center;
+    /* border: 1px solid black; */
+    background-color:#fbfbfd ;
+    height: 60px;
+       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+       width:100%;
+}
+.logo strong span{
+    margin-left:15px;
+    font-size: 40px;
+    color:#5ADF5A;
+}
+.logo strong{
+font-size: 35px;
+color: #128BFD;
+
+}
+.menu ul{
+    display: flex;
+   gap: 50px;
+  
+}
+.menu ul li a{
+   
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+    
+}
+
+.menu ul li{
+    list-style-type: none;
+    
+}
+.Herosection{
+    background-color:#e0e2e5;
+    height:100% ;
+   
+}
+.Livechart-btn button{
+    height: 35px;
+    width: 90px;
+    border-radius: 10px;
+    background-color:#128BFD ;
+    color: white;
+    border: none;
+
+}
+.Livechart-btn button:hover{
+    background-color:white ;
+    color: black;
+    border: 1px solid black;
+}
+.Livechart-btn{
+display:flex;
+gap: 10px;
+}
+.Herosection{
+    display: flex;
+   
+}
+.Herosection section{
+    flex: 1;
+    
+
+}
+.Herosection section:first-child{
+    h4{
+        margin-top: 200px;
+        margin-left: 70px;
+
+    }
+    h4 span{
+        color: red;
+    }
+    h1{
+        margin-top: 10px;
+        margin-left: 70px;
+
+    }
+    p{
+        margin-top: 30px;
+         margin-left: 70px;
+         width: 400px;
+
+    }
+    button{
+        margin-top: 40px;
+        margin-left:70px;
+        height: 40px;
+        width: 150px;
+        border-radius: 10px;
+        background-color:#128BFD;
+        color:white;
+        border: none;
+        
+    }
+    button:hover{
+        background-color: white;
+        border: 1px solid black;
+        color: black;
+  
+    }
+}
+.title table {
+     margin-left: 50px;
+     margin-top: 20px;
+      border-spacing: 30px;
+      border-spacing: 0  0 2px;
+}
+.title table tr:first-child{
+    width: 180px;    
+    text-align: center;
+    font-size: 30px;
+   color: #128BFD;
+}
+
+.title table tr:last-child{
+    border: 1px solid black;
+    width: 250px;    
+    font-size: 20px;
+    
+   
+}
+.Herosection section:last-child{
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+
+}
+.Herosection section img:last-child{
+    width:790px;
+    height: 655px;
+}
+
+.services{
+    display: flex;
+    border: 1px solid black;
+      width: 1518px;
+    height: 90vh;
+    background-color: #E0E2E5;
+   
+    
+}
+.services section{
+    border: 1px solid black;
+    height: 400px;
+    width: 200px;
+    flex: 1;
+}
+
+.services section:nth-child(1){
+    h5{
+ color: #128BFD;
+ margin-top: 30px;
+ margin-left: 50px;
+ }
+   h2 span{
+    color: #487E63;
+}
+  h2{
+    margin-top: 10px;
+ margin-left: 45px;
+  }
+  P{
+    width:300px;
+    margin-top: 10px;
+    margin-left:45px;
+  }
+
+button{
+    height: 50px;
+    width: 180px;
+    border-radius: 10px;
+    margin-left: 35px;
+    margin-top: 30px;
+    background-color: #128BFD;
+    color: white;
+    border: none;
+}
+h4{
+    margin-top: 20px;
+    margin-left: 35px;
+    color: #487E63;
+    
+    width: 250px;
+    height: 30px;
+    
+}
+}
+
+.services section:nth-child(2){
+    flex: 2;
+
+
+}
+
+.one{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+  
+}
+
+.one div{
+display: flex;
+height: 180px;
+width: 220px;
+flex-direction: column;
+border: 1px solid black;
+margin-top: 10px;
+margin-left: 10px;
+background-color: #E0E2E5;
+}
+
+.one div:nth-child(1){
+
+    background-color: #128BFD;
+ h3{
+    margin-top: 10px;
+    margin-left: 20px;
+ }   
+ p{
+    margin-top: 10px;
+    width: 150px;
+ }
+ a{
+ margin-top: 10px;
+ margin-right: 20px;
+ }
+}
+.one div:nth-child(2){
+
+    background-color: #128BFD;
+ h3{
+    margin-top: 10px;
+    margin-left: 20px;
+ }   
+ p{
+    margin-top: 10px;
+    width: 150px;
+ }
+ a{
+ margin-top: 10px;
+ margin-right: 20px;
+ }
+}
