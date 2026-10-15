@@ -1,5 +1,9 @@
-import "./Style.css";
+// import { Fragment } from "react/jsx-runtime";
 import myimg from "./image/home.jpg";
+import { FaHeart } from "react-icons/fa";
+// const xyz="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScIaFgccuJf95QorURBEgQlzF7X_rc3Ou4T3VR5nTGXQ&s=10"
+
+
 function Home() {
   return (
     <div className="outer">
@@ -39,7 +43,7 @@ function Home() {
       <div className="Herosection">
         <section>
           <h4>
-            <span>❤</span>Health Comes First
+            <span>❤️</span>Health Comes First
           </h4>
           <h1>
             Find your Doctor and <br />
@@ -69,6 +73,7 @@ function Home() {
 
         <section>
           <img src={myimg} alt="home pic" />
+           {/* <img src={xyz} alt="home pic" /> */}
         </section>
       </div>
       <div className="services">
@@ -94,7 +99,7 @@ function Home() {
             <a href="/">Learn More →</a>
           </div>
           <div className="service-card">
-            <h3>❤️<br/>Car</h3>
+            <h3><FaHeart/><br/>Car</h3>
             <p>Advanced heart care you can trust.</p>
             <a href="/">Learn More →</a>
           </div>

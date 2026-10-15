@@ -1,4 +1,4 @@
-import "./Style.css";
+
 function services(){
     return(
         <div>
